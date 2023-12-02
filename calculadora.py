@@ -1,5 +1,6 @@
 # Interface da calculadora
 
+from calc2 import multiplicacao
 from calc2 import soma
 
 # Apresentação
@@ -11,6 +12,8 @@ num2 = int(input('Informe o n2: '))
 
 # Processamento
 total = soma(num1, num2)
+total = multiplicacao(num1, num2)
 
 # Saída
 print(f'{num1} + {num2} = {total}')
+print(f'{num1} * {num2} = {total}')
